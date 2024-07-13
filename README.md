@@ -23,8 +23,6 @@ This project will not only help me deepen my knowledge of modern technologies, b
 ---
 
 <details><summary>Техническое задание</summary>
-keyfast
-
 Цель проекта разработать платформу для измерения скорости печати с целью научиться использовать в связке Django, React.js, Next.js, Tailwind, Docker. Если не получится использовать Next.js предполагается простое использование Tailwind. Сам проект представляет из себя платформу для замеров скорости печати пользователя и дальнейшего сохранения результатов. Предполагается простейшая реализация социальных функций на платформе.
 
 ** Техническое задание **
@@ -36,11 +34,11 @@ keyfast
 
 ** Основные моменты при разработке **
 
-- Необходимо интегрировать в проект React.js
-- Далее настроить конифигурацию React
+- Необходимо интегрировать в проект React.js/Next.js
+- Далее настроить конифигурацию React/Next.js
 - Продумать визуальную составляющую сайта
-- Импортировать Tailwind/Next в React и выполнить его настройку
-- Сверстать проект на React и Tailwind/Next
+- Импортировать Tailwind в React и выполнить его настройку
+- Сверстать проект на React.js/Next.js и Tailwind
 
 * Далее необходимо разработать Django проект
 * Выполнить настройку Django ОРМ и проработать БД
@@ -57,8 +55,6 @@ keyfast
 
 
 <details><summary>Technical specification</summary>
-keyfast
-
 The goal of the project is to develop a platform for measuring print speed in order to learn how to use Django, React in conjunction.js, Next.js, Tailwind, Docker. If you can't use Next.js assumes a simple use of Tailwind. The project itself is a platform for measuring the user's printing speed and further saving the results. The simplest implementation of social functions on the platform is assumed.
 
 ** Terms of reference **
@@ -70,11 +66,11 @@ The goal of the project is to develop a platform for measuring print speed in or
 
 ** The main points in the development **
 
-- It is necessary to integrate into the project React.js
-- Next, configure the React configuration
+- It is necessary to integrate into the project React.js/Next.js
+- Next, configure the React.js/Next.js configuration
 - Think over the visual component of the site
-- Import Tailwind/Next into React and configure it
-- Create a project on React and Tailwind/Next
+- Import Tailwind into React.js/Next.js and configure it
+- Create a project on React.js/Next.js and Tailwind
 
 * Next, you need to develop a Django project
 * Configure Django ORM and work through the database
