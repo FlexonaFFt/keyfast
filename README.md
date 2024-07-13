@@ -19,3 +19,72 @@ The platform is designed to provide users with the ability to quickly and accura
 The development of this platform requires a deep understanding of both frontend and backend technologies. React will be used to create a dynamic and responsive user interface, and Django will provide a reliable and scalable backend. Docker will help simplify the deployment process and ensure compatibility between different development environments.
 
 This project will not only help me deepen my knowledge of modern technologies, but also provide an opportunity to work on real tasks that may arise when developing web applications. I am sure that the successful implementation of this platform will be an important step in my professional growth and will open up new opportunities for further development.
+
+---
+
+<details><summary>###Техническое задание</summary>
+# keyfast
+
+Цель проекта разработать платформу для измерения скорости печати с целью научиться использовать в связке Django, React.js, Next.js, Tailwind, Docker. Если не получится использовать Next.js предполагается простое использование Tailwind. Сам проект представляет из себя платформу для замеров скорости печати пользователя и дальнейшего сохранения результатов. Предполагается простейшая реализация социальных функций на платформе.
+
+** Техническое задание **
+
+- Разработать красивый и минималистичный интерфейс
+- Реализовать аккаунты пользователей, статистику, таблицы лидеров и некоторые социальные функции
+- В полной мере разработать возможность набора текста на скорость
+- Если будет возможность и время реализовать собственное API
+
+** Основные моменты при разработке **
+
+- Необходимо интегрировать в проект React.js
+- Далее настроить конифигурацию React
+- Продумать визуальную составляющую сайта
+- Импортировать Tailwind/Next в React и выполнить его настройку
+- Сверстать проект на React и Tailwind/Next
+
+* Далее необходимо разработать Django проект
+* Выполнить настройку Django ОРМ и проработать БД
+* Разработать POST запросы и весь функционал для работы системы
+* Провести тестирование и проверить работоспособность
+* Выявить баги и внести фиксы
+
++ Далее необходимо связать React и Django
++ Провести тестирование работы фронта и бэка
++ Настроить серверную составляющую
++ Внедрить внутрь проекта Docker, запускающий React и Django
++ Добавить файл requirements.txt и произвести настройку конфигурации
+</details>
+
+
+<detaild><summary>###Technical specification</summary>
+# keyfast
+
+The goal of the project is to develop a platform for measuring print speed in order to learn how to use Django, React in conjunction.js, Next.js, Tailwind, Docker. If you can't use Next.js assumes a simple use of Tailwind. The project itself is a platform for measuring the user's printing speed and further saving the results. The simplest implementation of social functions on the platform is assumed.
+
+** Terms of reference **
+
+- Develop a beautiful and minimalistic interface
+- Implement user accounts, statistics, leaderboards and some social features
+- Fully develop the ability to type text at speed
+- If there is an opportunity and time to implement your own API
+
+** The main points in the development **
+
+- It is necessary to integrate into the project React.js
+- Next, configure the React configuration
+- Think over the visual component of the site
+- Import Tailwind/Next into React and configure it
+- Create a project on React and Tailwind/Next
+
+* Next, you need to develop a Django project
+* Configure Django ORM and work through the database
+* Develop POST requests and all the functionality for the operation of the system
+* Conduct testing and check the performance
+* Identify bugs and make fixes
+
++ Next, you need to link React and Django
++ To test the work of the front and back
++ Configure the server component
++ Embed inside the Docker project that runs React and Django
++ Add a file requirements.txt and make configuration settings
+</details>
