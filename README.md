@@ -25,14 +25,15 @@ This project will not only help me deepen my knowledge of modern technologies, b
 <details><summary>Техническое задание</summary>
 Цель проекта разработать платформу для измерения скорости печати с целью научиться использовать в связке Django, React.js, Next.js, Tailwind, Docker. Если не получится использовать Next.js предполагается простое использование Tailwind. Сам проект представляет из себя платформу для замеров скорости печати пользователя и дальнейшего сохранения результатов. Предполагается простейшая реализация социальных функций на платформе.
 
-** Техническое задание **
+
+Техническое задание
 
 - Разработать красивый и минималистичный интерфейс
 - Реализовать аккаунты пользователей, статистику, таблицы лидеров и некоторые социальные функции
 - В полной мере разработать возможность набора текста на скорость
 - Если будет возможность и время реализовать собственное API
 
-** Основные моменты при разработке **
+Основные моменты при разработке 
 
 - Необходимо интегрировать в проект React.js/Next.js
 - Далее настроить конифигурацию React/Next.js
@@ -57,14 +58,15 @@ This project will not only help me deepen my knowledge of modern technologies, b
 <details><summary>Technical specification</summary>
 The goal of the project is to develop a platform for measuring print speed in order to learn how to use Django, React in conjunction.js, Next.js, Tailwind, Docker. If you can't use Next.js assumes a simple use of Tailwind. The project itself is a platform for measuring the user's printing speed and further saving the results. The simplest implementation of social functions on the platform is assumed.
 
-** Terms of reference **
+
+Terms of reference 
 
 - Develop a beautiful and minimalistic interface
 - Implement user accounts, statistics, leaderboards and some social features
 - Fully develop the ability to type text at speed
 - If there is an opportunity and time to implement your own API
 
-** The main points in the development **
+The main points in the development
 
 - It is necessary to integrate into the project React.js/Next.js
 - Next, configure the React.js/Next.js configuration
@@ -84,3 +86,5 @@ The goal of the project is to develop a platform for measuring print speed in or
 + Embed inside the Docker project that runs React and Django
 + Add a file requirements.txt and make configuration settings
 </details>
+
+---
