@@ -23,8 +23,7 @@ This project will not only help me deepen my knowledge of modern technologies, b
 ---
 
 <details><summary>Техническое задание</summary>
-Цель проекта разработать платформу для измерения скорости печати с целью научиться использовать в связке Django, React.js, Next.js, Tailwind, Docker. Если не получится использовать Next.js предполагается простое использование Tailwind. Сам проект представляет из себя платформу для замеров скорости печати пользователя и дальнейшего сохранения результатов. Предполагается простейшая реализация социальных функций на платформе.
-<br>
+Цель проекта разработать платформу для измерения скорости печати с целью научиться использовать в связке Django, React.js, Next.js, Tailwind, Docker. Если не получится использовать Next.js предполагается простое использование Tailwind. Сам проект представляет из себя платформу для замеров скорости печати пользователя и дальнейшего сохранения результатов. Предполагается простейшая реализация социальных функций на платформе.<br>
 Техническое задание
 
 - Разработать красивый и минималистичный интерфейс
@@ -55,8 +54,7 @@ This project will not only help me deepen my knowledge of modern technologies, b
 
 
 <details><summary>Technical specification</summary>
-The goal of the project is to develop a platform for measuring print speed in order to learn how to use Django, React in conjunction.js, Next.js, Tailwind, Docker. If you can't use Next.js assumes a simple use of Tailwind. The project itself is a platform for measuring the user's printing speed and further saving the results. The simplest implementation of social functions on the platform is assumed.
-<br>
+The goal of the project is to develop a platform for measuring print speed in order to learn how to use Django, React in conjunction.js, Next.js, Tailwind, Docker. If you can't use Next.js assumes a simple use of Tailwind. The project itself is a platform for measuring the user's printing speed and further saving the results. The simplest implementation of social functions on the platform is assumed.<br>
 Terms of reference 
 
 - Develop a beautiful and minimalistic interface
