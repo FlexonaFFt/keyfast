@@ -1,18 +1,25 @@
-import "./styles/main.css";
-import "./App.css";
+import React from "react";
+import ReactDOM from "react-dom";
+import SentenceComponent from "./templates/SentenceComponent";
+import InputField from "./templates/InputField";
+import ResultComponent from "./templates/ResultComponent";
 
-function App() {
+const App = () => {
+  const [startTime, setStartTime] = useState(null);
+  const [endTime, setEndTime] = useState(null);
+
   return (
-    <header className="main">
-      <div className="generative-container">
-        <p className="generative-text">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elit sed diam nonumy
-          eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-          diam voluptua
-        </p>
-      </div>
-    </header>
+    <div>
+      <SentenceComponent />
+      <InputField
+        startTime={startTime}
+        setStartTime={setStartTime}
+        endTime={endTime}
+        setEndTime={setEndTime}
+      />
+      <ResultComponent startTime={startTime} endTime={endTime} />
+    </div>
   );
-}
+};
 
-export default App;
+ReactDOM.render(<App />, document.getElementById("root"));
