@@ -1,15 +1,16 @@
 import "./styles/main.css";
 import "./App.css";
+import TypeSpeedTest from "./templates/TypeSpeedTest.js";
+import SentenceGenerator from "./templates/SentenceGenerator.js";
 
 function App() {
+  const sentence = SentenceGenerator();
+
   return (
     <header className="main">
-      <div className="generative-container">
-        <p className="generative-text">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elit sed diam nonumy
-          eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-          diam voluptua
-        </p>
+      <div>
+        <SentenceGenerator />
+        <TypeSpeedTest sentence={sentence} />
       </div>
     </header>
   );
