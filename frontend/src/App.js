@@ -1,10 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React, { useState } from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
 import SentenceComponent from "./templates/SentenceComponent";
 import InputField from "./templates/InputField";
 import ResultComponent from "./templates/ResultComponent";
 
-const App = () => {
+function App() {
   const [startTime, setStartTime] = useState(null);
   const [endTime, setEndTime] = useState(null);
 
@@ -20,6 +21,6 @@ const App = () => {
       <ResultComponent startTime={startTime} endTime={endTime} />
     </div>
   );
-};
+}
 
-ReactDOM.render(<App />, document.getElementById("root"));
+export default App;
