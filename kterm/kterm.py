@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import time
 from TextProvider import TextProvider
 from database import Database
