@@ -8,7 +8,7 @@ def typing_test():
     
     print("Введите следующий текст:")
     print(text_to_type)
-    
+    print() 
     input("Нажмите Enter, чтобы начать...")
     
     start_time = time.time()
@@ -24,6 +24,7 @@ def typing_test():
     # Вычисление скорости печати
     words_per_minute = (len(user_input.split()) / time_in_seconds) * 60
     
+    print()
     print(f"\nВремя: {time_in_seconds} секунд")
     print(f"Ошибки: {errors}")
     print(f"Скорость печати: {words_per_minute:.2f} слов в минуту")
@@ -37,6 +38,7 @@ def main_menu():
         print("1. Тест скорости печати")
         print("2. Показать результаты")
         print("3. Выход")
+        print()
         
         choice = input("Выберите команду: ")
         
