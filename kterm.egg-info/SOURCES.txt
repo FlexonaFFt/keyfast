@@ -1,8 +1,0 @@
-LICENSE
-README.md
-setup.py
-kterm.egg-info/PKG-INFO
-kterm.egg-info/SOURCES.txt
-kterm.egg-info/dependency_links.txt
-kterm.egg-info/entry_points.txt
-kterm.egg-info/top_level.txt
